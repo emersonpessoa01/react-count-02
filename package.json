@@ -7,18 +7,21 @@
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.0.4",
     "@testing-library/user-event": "12.1.6",
-    "materialize-css": "1.0.0",
+    "lodash": "^4.17.20",
+    "materialize-css": "^1.0.0",
+    "node-forge": "^0.10.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "yarn.lock": "0.0.1-security"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
