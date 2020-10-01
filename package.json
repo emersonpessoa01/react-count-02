@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "precache-manifest.24ba38275cfd068f5dabffd9c9c47a47.js",
-  "dependencies": {},
+  "dependencies": {
+    "start": "^5.1.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
