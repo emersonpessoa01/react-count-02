@@ -1,8 +1,8 @@
 {
-  "homepage": "https://react-count-02.netlify.app/",
   "name": "fer-cap02-aula02",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://emersonpessoa01.github.io/react-count-02",
   "dependencies": {
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.0.4",
