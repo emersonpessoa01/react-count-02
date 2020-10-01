@@ -1,0 +1,22 @@
+{
+  "name": "react-count-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "precache-manifest.24ba38275cfd068f5dabffd9c9c47a47.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonpessoa01/react-count-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonpessoa01/react-count-02/issues"
+  },
+  "homepage": "https://github.com/emersonpessoa01/react-count-02#readme"
+}
