@@ -1,24 +1,44 @@
 {
-  "name": "react-count-02",
-  "version": "1.0.0",
-  "description": "",
-  "main": "precache-manifest.24ba38275cfd068f5dabffd9c9c47a47.js",
+  "name": "fer-cap02-aula02",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://emersonpessoa01.github.io/react-count-02",
   "dependencies": {
-    "start": "^5.1.0"
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.0.4",
+    "@testing-library/user-event": "12.1.6",
+    "debug": "^4.2.0",
+    "lodash": "^4.17.20",
+    "materialize-css": "^1.0.0",
+    "node-forge": "^0.10.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "yarn.lock": "0.0.1-security"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emersonpessoa01/react-count-02.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emersonpessoa01/react-count-02/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/emersonpessoa01/react-count-02#readme"
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
