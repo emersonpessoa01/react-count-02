@@ -8,7 +8,7 @@
     "@testing-library/react": "11.0.4",
     "@testing-library/user-event": "12.1.6",
     "debug": "^4.2.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "materialize-css": "^1.0.0",
     "node-forge": "^0.10.0",
     "react": "16.13.1",
